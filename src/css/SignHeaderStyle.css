@@ -1,0 +1,19 @@
+
+.SignHeader{
+    width: 140px;
+    text-align: center;
+}
+.Zhihulogo{
+    width: 128px;
+    height: 60px;
+    fill: #0084ff;
+}
+.Zhihuslogan{
+    font-size: 16px;
+    margin-top: 6px;
+    margin-bottom: 24px;
+    color: #444444;
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: 500;
+}

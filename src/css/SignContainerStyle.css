@@ -1,0 +1,266 @@
+.sign-container{
+    width:400px;
+    margin: 0 auto;
+}
+.card{
+    text-align: center;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+    box-sizing: border-box;
+}
+.sign-content-inner{
+    position: relative;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1);
+}
+
+/*
+
+信息登录表单部分的样式
+
+*/
+.button{
+    font-size: 14px;
+    cursor: pointer;
+    background: none;
+    display: block;
+}
+.form-login{
+    width:352px;
+    padding: 0 24px 84px 24px;
+}
+.logintabs{
+    text-align: left;
+}
+.logintab{
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    margin-right: 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/*登录方式激活指示样式*/
+.logintab-active{
+    font-weight: 600;
+    font-synthesis: style;
+}
+.logintab-active::after{
+    content: '';
+    display: block;
+    height: 3px;
+    background-color: #0084ff;
+    width:100%;
+}
+/*右上角扫码登录切换图样式*/
+.isQRswitcher{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 60px;
+    width: 60px;
+    border-top-right-radius: 5px;
+}
+.isQRswitcher img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+/*免密码登录输入框样式*/
+.smsaccount{
+    width: 100%;
+    height: 48px;
+    margin-top: 24px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.zonepre{
+    display: inline-block;
+    height: 38px;
+    border: 1px solid transparent;
+    min-width: 72px;
+    float: left;
+    transform: translateY(4px);
+}
+.zoneprebtn{
+    border: none;
+    text-align: left;
+    color: #8c96ab;
+    height: 38px;
+    line-height: 38px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.choose{
+    display: inline-flex;
+    align-items: center;
+}
+.Select-arrow{
+    line-height: 38px;
+    margin-left:8px;
+}
+.separator{
+    width: 1px;
+    height: 22px;
+    margin: 24px 12px 0 12px;
+    background-color: #ebebeb;
+    display: inline-block;
+    float: left;
+    transform: translateY(-11px);
+}
+.inputcontainer{
+    overflow: hidden;
+    position: relative;
+}
+.inputwrapper{
+    height: 48px;
+    text-align: left;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.inputwrapper input{
+    width: 100%;
+    border: none;
+    font-size: 15px;
+    line-height: 24px;
+    height: inherit;
+}
+input::-webkit-input-placeholder{
+    color: #8c96ab;
+    font-size: 14px;
+    font-weight: 600;
+}
+input::-ms-input-placeholder{
+    color: #8c96ab;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+input::-moz-placeholder{
+    color: #8c96ab;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.smspassword{
+    height: 48px;
+    margin: 12px 0 0 0;
+    border-bottom: 1px solid #ebebeb;
+    position: relative;
+}
+
+.verifymessage{
+    position: absolute;
+    top: 24px;
+    right: 0;
+    font-weight: 500;
+    color: #175199;
+    font-size: 15px;
+    transform: translateY(-50%);
+}
+
+.verify-message-input-container{
+    height:48px;
+    display: inline-flex;
+    align-items: center;
+    float: left;
+}
+.verify-message-input-container input{
+    line-height: 24px;
+    border: none;
+    text-align: left;
+}
+.optionalverify{
+    height: 20px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+}
+.optionalverify button{
+    color: #8590a6;
+    font-size: 15px;
+    border: none;
+    background:none;
+    font-weight: 500;
+}
+
+/*
+    注册/登录按钮
+ */
+.reg-or-login-btn{
+    height: 34px;
+    margin-top: 30px;
+    border: 1px solid transparent;
+    background-color: #0084ff;
+    width: 100%;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 3px;
+}
+/*
+    登录提示信息
+ */
+.login-tip{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 37px;
+    padding: 12px 24px;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f6f6f6;
+}
+.login-tip div p{
+    text-align: left;
+    font-size: 13px;
+    font-weight: 500;
+}
+.login-tip div button{
+    border: none;
+    color: #175199;
+    font-size: 13px;
+    background: transparent;
+    font-weight: 500;
+}
+/*
+
+扫码部分的样式
+
+*/
+.QRcontainer{
+    padding: 40px 0;
+}
+.QRtitle{
+    height: 33px;
+    margin: 3px 0 50px 0;
+    text-align: center;
+    font-size: 1.7em;
+    line-height: 33px;
+}
+.QRcontent p{
+    letter-spacing: 1px;
+    color: #1a1a1a;
+    font-size: 14px;
+    font-weight: 400;
+}
+.QRcontent p span{
+    color: #175199;
+}
+.QRimg{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 15px auto;
+}

@@ -1,0 +1,40 @@
+.card{
+    text-align: center;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+    box-sizing: border-box;
+}
+.loginsocial{
+    width: 400px;
+    height: 60px;
+    margin: 24px 0 10px 0;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.tip{
+    height: 60px;
+    line-height: 60px;
+    text-align: left;
+    color: #8691a7;
+    font-size: 15px;
+    font-weight: 500;
+}
+.socialogin-btn-group{
+    display: inline-flex;
+    margin-left: 1px;
+    align-items: center;
+}
+.socialogin-btn{
+    height: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+.socialogin-btn svg{
+    margin-right: 6px;
+}
+.ml{
+    margin-left: 22px;
+}

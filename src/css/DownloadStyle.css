@@ -1,0 +1,25 @@
+.card{
+    text-align: center;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+    box-sizing: border-box;
+    border: 1px solid transparent;
+}
+.idownload{
+    margin-top: 14px;
+    padding: 0 16px;
+    width: 400px;
+    height: 42px;
+}
+.idownload div{
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0084ff;
+    font-size: 15px;
+}
+.idownload div svg{
+    margin-right: 11px;
+}
